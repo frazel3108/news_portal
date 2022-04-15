@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.rounded-5 {
+  border-radius: .75rem;
+}
+
+body {
+  background-color: #F0F1EC;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-color: #F3EDDF;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+header .container h1 a {
+  font-style: normal;
+  font-weight: 600;
+}
+
+header .container .text-end {
+  font-size: 16px;
+}
+
+header .container .text-end ul {
+  margin-bottom: 0;
+}
+
+header .container .text-end li {
+  color: #6c757d;
+}
+
+header .container .text-end li a {
+  color: #6c757d;
+}
+
+header .container .text-end .login a {
+  padding-top: 6px;
+  margin-top: 0.5em;
+}
+
+header .container .text-end .login .dropdown .btn {
+  border: none;
+  text-decoration: none;
+  padding: 0;
+  margin-top: 1em;
+}
+
+header .container .text-end .login .dropdown .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .container .text-end .login .dropdown .dropdown-menu {
+  padding-top: 0.2em;
+}
+
+header .container .text-end .login .dropdown .dropdown-menu .dropdown-item:active {
+  background-color: #777d81;
+  color: black;
+}
+
+header .modal-body .text-muted a {
+  padding: 0;
+  text-decoration: none;
+  border: 0;
+}
+
+.mainNews {
+  margin-top: 0;
+}
+
+.mainNews .col-md-9 .row .col {
+  max-height: 300px;
+  height: auto;
+}
+
+.mainNews .col-md-9 .row .col .card {
+  background-repeat: no-repeat;
+  background: rgba(0, 0, 0, 0.767);
+}
+
+.mainNews .col-md-9 .row .col .card .p-news {
+  padding-top: 3rem !important;
+  padding-right: 3rem !important;
+  padding-bottom: 3rem !important;
+  padding-left: 3rem !important;
+}
+
+.mainNews .col-md-9 .row .col .card .p-news .fw-bold {
+  font-size: 25px;
+}
+
+.mainNews .col-md-9 .row .col .card small {
+  color: black;
+  font-weight: 800;
+}
+
+.mainNews .col-md-9 .row .col .card:hover {
+  opacity: 0.875;
+}
+
+.mainNews .featurette-heading {
+  margin-bottom: 2rem;
+}
+
+.mainNews .col .rounded-5 {
+  border-radius: 2rem;
+}
+
+.mainNews .card {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.mainNews .card .card-header {
+  border-bottom: none;
+}
+
+.mainNews .card .card-body {
+  padding: 0;
+}
+
+.lead a {
+  color: #6c757d;
+}
+
+.bodyNews p {
+  font-weight: 500;
+  white-space: pre-line;
+}
+
+main hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+main .lastNews .card {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+main .lastNews .card .card-header {
+  border-bottom: none;
+}
+
+main .lastNews .card .card-body {
+  padding: 0;
+}
+
+main .b-material-incut-themes-links li a {
+  color: #6c757d;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+}
+
+main .row .blog-post p span {
+  margin-left: 1em;
+}
+
+@media screen and (max-width: 780px) {
+  header .border-bottom .container .text-end ul .mail,
+  header .border-bottom .container .text-end ul .separator,
+  header .border-bottom .container .text-end ul .ContacUS,
+  header .border-bottom .container .text-end ul .numberPhone {
+    display: none;
+  }
+}
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: #F3EDDF;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
